@@ -1,32 +1,3 @@
-// import React from "react";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Navbar from "./Components/navbar";
-// import Home from "./Components/Home";
-// import About from "./Components/About"; // <-- Import the About page
-
-// function App() {
-//   return (
-//     <Router>
-//         <Routes>
-//           <Route path="/" element={<Home />} />
-//           <Route path="/about" element={<About />} /> {/* <-- Add this */}
-//            <Route path="/navbar" element={<Navbar />} />
-//         </Routes>
-//     </Router>
-//   );
-// }
-
-// export default App;
-
-
-
-
-
-
-
-
-
-
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/navbar";
@@ -38,7 +9,8 @@ import Projects from "./Components/Projects";
 
 function App() {
   return (
-    <Router>
+    // Add basename="/portfolio" here
+    <Router basename="/portfolio">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -52,3 +24,4 @@ function App() {
 }
 
 export default App;
+

@@ -149,7 +149,7 @@ const Contact = () => {
         <p style={{ fontSize: "1.1rem", marginBottom: "8px" }}>
           <strong>Email:</strong> patriciakarekyezi@gmail.com
         </p>
-        <p style={{ marginTop: "20px", fontSize: "1.1rem" }}>Patricia Karekezi</p>
+        <p style={{ marginTop: "20px", fontSize: "1.1rem" }}>Patricia Karekyezi</p>
 
         {/* White line before icons */}
         <div
